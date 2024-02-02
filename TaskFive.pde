@@ -1,20 +1,20 @@
-int numberOfCircles;    // 5.b
-int circleSize;         // 5.a
-float x, y;             // 5.c
-int counter = 0;        // 5.d
-int rowCounter = 0;     // 5.d
+int numberOfCircles;
+int circleSize;
+float x, y;
+int counter = 0;
+int rowCounter = 0;
 
 void setup() {
   size(400, 400);
   
-  numberOfCircles = 30;  // Initializing numberOfCircles with a specific value
-  circleSize = width / numberOfCircles;  // 5.a Initializing circleSize based on numberOfCircles
+  numberOfCircles = 30;  
+  circleSize = width / numberOfCircles; 
   ellipseMode(CORNER);
 }
 
 void draw() {
-  x = circleSize * counter;    // 5.c
-  y = circleSize * rowCounter; // 5.c
+  x = circleSize * counter;
+  y = circleSize * rowCounter;
 
   // Un-comment this line after completing step 6.a 
   // fill(red, green, blue);
@@ -30,5 +30,4 @@ void draw() {
   // 2 % 3 = 2
   // 3 % 3 = 0
 
-  // Add the code for 6.c here
 }
